@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500;700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    padding: 20px;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+.yt-card {
+    width: 320px;
+    display: inline-block;
+    margin: 20px 9px;
+}
+
+.video-image {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 13px;
+}
+.time {
+    width: 16%;
+    height: 11%;
+    text-align: center;
+    position: relative;
+    bottom: 15%;
+    left:  83%;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+.video-image img {
+    width: 100%;
+    height: 100%;
+}
+.channel-logo {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.channel-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 36px;
+}
+.channel-text {
+    width: 79%;
+    display: inline-block;
+    margin-left: 9px;
+}
+.video-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    overflow-x: hidden;
+    margin-bottom: 9px;
+}
+.video-author, .video-meta {
+    font-size: 12px;
+    margin-top: 4px;
+    color: rgb(96, 96, 96);
+}
